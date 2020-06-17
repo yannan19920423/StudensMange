@@ -5,6 +5,7 @@ BEGIN:
 	printf("Please enter the account:");
 	char account[USR_NAME_LEN];
 	scanf("%s", account);
+
 	pUSR_ACCOUNT phead = NULL, ptemp;
 	OPEN_ACCOUNT_INFOR(&phead);
 	ptemp = phead;
